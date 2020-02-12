@@ -135,6 +135,7 @@ ul{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     width: 100%;
+    margin-bottom: 40px;
 
 }
 .home-card img {
@@ -150,4 +151,19 @@ ul{
     color: #0067b8;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* Xbox */
+.xbox{
+    width: 100%;
+    height: 350px;
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+    margin-bottom: 20px;
+}
+.xbox .content {
+    width: 40%;
+    padding: 50px 0 0 30px;
+}
+.xbox p{
+    margin: 10px 0 20px;
 }
