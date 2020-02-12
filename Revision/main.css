@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+header{
+	display: flex;
+	text-align: center;
+
+}
+.nav ul{
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.nav ul li{
+	height: 60px;
+ 	background-color: pink;
+	width: 120px;
+	text-align: center;
+	line-height: 60px;
+}
