@@ -38,7 +38,7 @@ html {
     display: flex;
     align-items: center;
     padding: .5rem 3.75rem;
-    background-color: orange;
+    background-color: #ff8000;
   }
   
   header .logo-small {
@@ -99,6 +99,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    backgorund-color: rgba(255, 128, 0, 0.75);
   
   }
   
@@ -111,6 +112,7 @@ html {
     padding-bottom: 1.25rem;
     font-family: "Creepster", cursive;
     font-size: 8rem;
+    color: rgba(0, 0, 0, 0.7);
   
   }
   
@@ -151,7 +153,7 @@ html {
     margin-bottom: 2.4375rem;
     line-height: 1;
     font-size: 2rem;
-    color: orange;
+    color: #ff8000;
   }
   
   #color-guide .color {
@@ -186,6 +188,7 @@ html {
     margin-bottom: 1.25rem;
     font-size: 1.125rem;
     font-weight: bold;
+    color: #9b9b9b;
   
   }
   
@@ -237,7 +240,7 @@ html {
   /* Red Swatches */
   
   .reds .base-color {
-    color: #ff002b;
+    color: hsl(350, 100%, 50%);
   }
   
   /* Red lightness decreases by 15 */
@@ -375,7 +378,7 @@ html {
   /* Blue Swatches */
   
   .blues .base-color {
-    color: #0055ff;
+    color: hsl(220, 100%, 50%);
   }
   
   /* Blue lightness decreases by 20 */
@@ -462,6 +465,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
   
   }
   
@@ -482,7 +486,7 @@ html {
   footer .button {
     padding: 1.25rem 3.75rem;
     border-radius: 4px;
-    background-color: orange;
+    background-color: #ff8000;
   }
   
   @media only screen and (max-width: 560px) {
