@@ -1,4 +1,20 @@
-html {
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/worksans/v7/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXBi8Jpg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  html {
     font-size: 18px;
   }
   
@@ -74,11 +90,15 @@ html {
     font-size: 1.44rem;
     letter-spacing: 2px;
     font-weight: 500;
+    font-family: "Arial" sans-serif;
   }
   
   .banner h1 {
     padding-top: 1.11rem;
     font-size: 11rem;
+    font-size: 900;
+    font-family: sans-serif;
+    
   }
   
   @media only screen and (max-width: 750px) {
@@ -98,6 +118,7 @@ html {
   
     .banner h1 {
       font-size: 6rem;
+      
     }
   }
   
@@ -107,6 +128,8 @@ html {
     padding: 0 25% 4rem 25%;
     background-color: rgb(254, 231, 218);
     color: #4a4a4a;
+    line-height: 1.4;
+    font-family: serif;
   }
   
   .photo {
@@ -128,6 +151,7 @@ html {
   
   .photo .caption {
     font-style: italic;
+    font-family: serif;
   }
   
   .photo.first {
@@ -147,6 +171,8 @@ html {
     font-family: "Abril Fatface", serif;
     font-size: 7.44rem;
     color: #10b0d8;
+    line-height: .87;
+    
   }
   
   .quote {
@@ -158,6 +184,7 @@ html {
     text-align: center;
     font-size: 3.55rem;
     font-weight: 800;
+    line-height: 1.2;
   }
   
   @media only screen and (max-width: 680px) {
@@ -173,6 +200,7 @@ html {
     align-items: center;
     padding: 0 1%;
     background-color: #212121;
+    line-height: 1.5;
   }
   
   footer .image-container {
