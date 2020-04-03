@@ -34,22 +34,32 @@ body {
   
   .container {
     border: 2px solid Snow;
+    display: flex;
   }
   
   /* To Do Section */
   
   .week {
+    display: inline-flex;
+    flex-grow: 3;
+    flex-direction: column;
   }
   
   .row {
     min-height: 200px;
     display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .square {
     width: 125px;
     height: 125px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .day.square {
@@ -72,6 +82,8 @@ body {
   
   .reminders {
     background-color: Khaki;
+    display: inline-flex;
+    flex-grow: 2;
   }
   
   .reminders h3 {
